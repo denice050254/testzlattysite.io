@@ -62,18 +62,21 @@ footer {
   font-size: 14px;
 }
 
-/* Media Queries */
+/* Pink Color Theme */
 
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  footer {
-    font-size: 12px;
-  }
+body {
+  background-color: #ffe6ea;
 }
+
+h1, h2 {
+  color: #ff6090;
+}
+
+nav ul li a {
+  color: #ff6090;
+}
+
+footer {
+  background-color: #ff6090;
+}
+
